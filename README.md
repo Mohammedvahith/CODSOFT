@@ -1,36 +1,52 @@
-# CODSOFT Internship - Machine Learning Projects
+# Welcome to CodSoft Machine Learning Projects 🚀
 
-Welcome to my GitHub repository where I showcase the machine learning projects developed during my internship at CODSOFT! 🚀
+Welcome to my GitHub repository where I showcase various machine learning projects developed during my internship at CodSoft. Each project explores different domains and techniques in machine learning.
 
-## Introduction
+## 🌟 Projects
 
-This repository contains several machine learning projects I worked on during my internship. Each project explores different tasks and techniques in the field of machine learning.
+### 🎬 Movie Genre Classification
 
-## Projects
+Predict movie genres based on plot summaries using TF-IDF and classifiers like Naive Bayes and Logistic Regression.
 
-### Movie Genre Classification
+**Directory:** `Movie Genre Classification`
 
-- **Description:** Predict movie genres based on plot summaries using TF-IDF and classifiers like Naive Bayes and Logistic Regression.
-- **Directory:** [Movie Genre Classification](./Movie%20Genre%20Classification)
+**File:** `Task_1(Movie_Genre_Classification).ipynb`
 
-### Credit Card Fraud Detection
+**Dataset:** Movie Genre Dataset
 
-- **Description:** Detect fraudulent credit card transactions using decision trees and SMOTE for handling class imbalance.
-- **Directory:** [Credit Card Fraud Detection](./Credit%20Card%20Fraud%20Detection)
+### 💳 Credit Card Fraud Detection
 
-### Customer Churn Prediction
+Identify fraudulent credit card transactions using decision tree algorithms and handling class imbalance with SMOTE.
 
-- **Description:** Predict customer churn in subscription services using Gradient Boosting based on demographic and usage data.
-- **Directory:** [Customer Churn Prediction](./Customer%20Churn%20Prediction)
+**Directory:** `Credit Card Fraud Detection`
 
-### Spam SMS Detection
+**File:** `Task_2(CREDIT_CARD_FRAUD_DETECTION).ipynb`
 
-- **Description:** Classify SMS messages as spam or legitimate using TF-IDF and Naive Bayes classifier.
-- **Directory:** [Spam SMS Detection](./Spam%20SMS%20Detection)
+**Dataset:** Credit Card Fraud Dataset
 
-## Installation
+### 📉 Customer Churn Prediction
 
-To run these projects locally, ensure you have Python and Jupyter Notebook installed. Install the required dependencies using:
+Forecast customer churn for subscription services using gradient boosting on customer demographics and behavior data.
 
-```bash
-pip install -r requirements.txt
+**Directory:** `Customer Churn Prediction`
+
+**File:** `Task_3(CUSTOMER_CHURN_PREDICTION).ipynb`
+
+**Dataset:** Customer Churn Dataset
+
+### 📱 Spam SMS Detection
+
+Detect spam SMS messages using text vectorization techniques like TF-IDF combined with Naive Bayes classification.
+
+**Directory:** `Spam SMS Detection`
+
+**File:** `Task_4(SPAM_SMS_DETECTION).ipynb`
+
+**Dataset:** SMS Spam Dataset
+
+## 📫 Contact Me
+
+- **LinkedIn:** [Your LinkedIn Profile](https://www.linkedin.com/yourprofile)
+- **Email:** your.email@example.com
+
+Feel free to reach out for collaboration or further discussion on these projects!
