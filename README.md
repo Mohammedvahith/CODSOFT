@@ -28,17 +28,18 @@ This repository showcases the work done during my internship at CodSoft. The tas
 
 **Description:** This task involves developing a machine learning model to classify movies into different genres based on their descriptions. The dataset used includes movie plots and corresponding genres. Various natural language processing techniques and classification algorithms were employed to achieve high accuracy.
 
-**Technologies Used:**
+**Techniques Used:**
 - Natural Language Processing (NLP)
-- Bag of Words, TF-IDF
-- Classification Algorithms (e.g., Logistic Regression, Random Forest)
-- Scikit-learn, NLTK
+- Bag of Words (BoW)
+- Term Frequency-Inverse Document Frequency (TF-IDF)
+- Classification Algorithms: Logistic Regression, Random Forest, Support Vector Machine (SVM)
 
-**Steps:**
-1. Data preprocessing and cleaning
-2. Feature extraction using NLP techniques
-3. Model training and evaluation
-4. Hyperparameter tuning
+**Process:**
+1. **Data Preprocessing:** Clean and preprocess the text data (movie plots).
+2. **Feature Extraction:** Use BoW and TF-IDF to convert text data into numerical features.
+3. **Model Training:** Train multiple classification models to predict the genre.
+4. **Evaluation:** Evaluate the models using metrics such as accuracy, precision, recall, and F1-score.
+5. **Hyperparameter Tuning:** Optimize the model using techniques such as Grid Search and Cross-Validation.
 
 ### Task 2: Credit Card Fraud Detection
 
@@ -46,59 +47,16 @@ This repository showcases the work done during my internship at CodSoft. The tas
 
 **Description:** This task focuses on detecting fraudulent credit card transactions. The dataset contains transaction details labeled as fraudulent or legitimate. The goal is to build a model that accurately identifies fraudulent transactions.
 
-**Technologies Used:**
+**Techniques Used:**
 - Data Preprocessing
 - Feature Engineering
-- Classification Algorithms (e.g., Decision Trees, Random Forest, XGBoost)
-- Imbalanced Data Handling Techniques (e.g., SMOTE)
-- Scikit-learn
+- Handling Imbalanced Data: SMOTE (Synthetic Minority Over-sampling Technique)
+- Classification Algorithms: Decision Trees, Random Forest, XGBoost
 
-**Steps:**
-1. Data exploration and visualization
-2. Handling imbalanced data
-3. Model training and evaluation
-4. Performance metrics and model improvement
-
-### Task 3: Customer Churn Prediction
-
-**File:** `Task_3(CUSTOMER_CHURN_PREDICTION).ipynb`
-
-**Description:** In this task, a model is developed to predict customer churn for a telecom company. The dataset includes customer demographics, account information, and service usage patterns. The model helps in identifying customers who are likely to leave the service.
-
-**Technologies Used:**
-- Data Preprocessing
-- Feature Engineering
-- Classification Algorithms (e.g., Logistic Regression, Random Forest, Gradient Boosting)
-- Scikit-learn, Pandas, NumPy
-
-**Steps:**
-1. Data preprocessing and cleaning
-2. Exploratory data analysis
-3. Feature selection and engineering
-4. Model training and evaluation
-5. Hyperparameter tuning
-
-### Task 4: Spam SMS Detection
-
-**File:** `Task_4(SPAM_SMS_DETECTION).ipynb`
-
-**Description:** This task involves building a model to classify SMS messages as spam or ham (not spam). The dataset includes SMS messages labeled as spam or ham. Various natural language processing techniques and classification algorithms were used to build an effective spam detection model.
-
-**Technologies Used:**
-- Natural Language Processing (NLP)
-- Text Vectorization (e.g., Count Vectorizer, TF-IDF)
-- Classification Algorithms (e.g., Naive Bayes, SVM)
-- Scikit-learn, NLTK
-
-**Steps:**
-1. Data preprocessing and cleaning
-2. Text vectorization using NLP techniques
-3. Model training and evaluation
-4. Performance metrics and model improvement
-
-## Installation
-
-To run the notebooks locally, you need to have Python and Jupyter Notebook installed. You can install the required dependencies using the following command:
-
-```bash
-pip install -r requirements.txt
+**Process:**
+1. **Data Exploration:** Visualize and understand the distribution of the data.
+2. **Handling Imbalanced Data:** Use SMOTE to balance the dataset.
+3. **Feature Engineering:** Create new features to improve model performance.
+4. **Model Training:** Train various classification models to detect fraud.
+5. **Evaluation:** Evaluate models using metrics such as accuracy, precision, recall, F1-score, and ROC-AUC.
+6. **Model Improvement:** Tune hyperparameters and ensemble methods 
