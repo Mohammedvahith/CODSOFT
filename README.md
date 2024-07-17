@@ -1,11 +1,11 @@
-# CodSoft Internship
+# CodSoft Internship - Machine Learning Projects
 
-Welcome to the CodSoft Internship repository. This repository contains the tasks completed during my internship at CodSoft, focusing on developing machine learning models for various real-world applications.
+Welcome to the CodSoft Internship repository. This repository contains various machine learning tasks I completed during my internship at CodSoft, demonstrating my skills and learnings in the field.
 
 ## Table of Contents
 
-- [Overview](#overview)
-- [Tasks](#tasks)
+- [Introduction](#introduction)
+- [Projects](#projects)
   - [Task 1: Movie Genre Classification](#task-1-movie-genre-classification)
   - [Task 2: Credit Card Fraud Detection](#task-2-credit-card-fraud-detection)
   - [Task 3: Customer Churn Prediction](#task-3-customer-churn-prediction)
@@ -16,47 +16,67 @@ Welcome to the CodSoft Internship repository. This repository contains the tasks
 - [Contributing](#contributing)
 - [License](#license)
 
-## Overview
+## Introduction
 
-This repository showcases the work done during my internship at CodSoft. Each task is implemented in a Jupyter Notebook and involves building and evaluating machine learning models.
+This repository includes machine learning models and projects that I developed during my internship at CodSoft. Each project is organized in its own directory with relevant code.
 
-## Tasks
+## Projects
 
 ### Task 1: Movie Genre Classification
 
 **File:** `Task_1(Movie_Genre_Classification).ipynb`
 
-**Description:** Develops a model to classify movies into genres based on descriptions using NLP techniques and classification algorithms.
+**Description:** Created a machine learning model to predict the genre of a movie based on its plot summary using NLP techniques and classification algorithms.
 
-**Technologies:** NLP, TF-IDF, Logistic Regression, Random Forest
+**Techniques Used:** TF-IDF
+
+**Classifiers:** Naive Bayes, Logistic Regression
+
+**Directory:** Movie Genre Classification
+
+**Dataset:** Movie Genre Dataset
 
 ### Task 2: Credit Card Fraud Detection
 
 **File:** `Task_2(CREDIT_CARD_FRAUD_DETECTION).ipynb`
 
-**Description:** Builds a model to detect fraudulent transactions using imbalanced data handling and classification algorithms.
+**Description:** Built a model to detect fraudulent credit card transactions using a dataset containing transaction information.
 
-**Technologies:** SMOTE, Decision Trees, Random Forest, XGBoost
+**Techniques Used:** Decision Trees, SMOTE
+
+**Directory:** Credit Card Fraud Detection
+
+**Dataset:** Credit Card Fraud Dataset
 
 ### Task 3: Customer Churn Prediction
 
 **File:** `Task_3(CUSTOMER_CHURN_PREDICTION).ipynb`
 
-**Description:** Predicts customer churn using demographic and usage data, with feature engineering and classification models.
+**Description:** Developed a model to predict customer churn for a subscription-based service using historical customer data, including usage behavior and demographics.
 
-**Technologies:** Logistic Regression, Random Forest, Gradient Boosting
+**Techniques Used:** Gradient Boosting
+
+**Directory:** Customer Churn Prediction
+
+**Dataset:** Customer Churn Dataset
 
 ### Task 4: Spam SMS Detection
 
 **File:** `Task_4(SPAM_SMS_DETECTION).ipynb`
 
-**Description:** Classifies SMS messages as spam or ham using text vectorization and classification algorithms.
+**Description:** Built an AI model to classify SMS messages as spam or legitimate using techniques like TF-IDF with the Naive Bayes classifier.
 
-**Technologies:** Count Vectorizer, TF-IDF, Naive Bayes, SVM
+**Techniques Used:** TF-IDF
+
+**Classifiers:** Naive Bayes
+
+**Directory:** Spam SMS Detection
+
+**Dataset:** SMS Spam Dataset
 
 ## Installation
 
-To run the notebooks locally, install Python and Jupyter Notebook. Then install the required dependencies:
+To run the notebooks locally, you need to have Python and Jupyter Notebook installed. Then install the required dependencies:
 
 ```bash
 pip install -r requirements.txt
