@@ -49,7 +49,7 @@
     <p>If you have any questions or suggestions, feel free to contact me:</p>
     <ul>
         <li><strong>Email</strong>: <a href="mailto:vahith2004@gmail.com">vahith2004@gmail.com</a></li>
-        <li><strong>LinkedIn</strong>: <a href="https://www.linkedin.com/in/mohammed-vahith/">Mohammedvahith</a></li>
+        <li><strong>LinkedIn</strong>: <a href="https://www.linkedin.com/in/mohammed-vahith/">Mohammed Vahith</a></li>
     </ul>
 </body>
 </html>
